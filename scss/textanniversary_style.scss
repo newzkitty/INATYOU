@@ -108,10 +108,14 @@ body {
 {
     #head-section{
             padding: 40px;
+            justify-content: center;
+            align-items: center;
         .head-container{
           line-break: 20px;
             .text{
               padding: 20px;
+              justify-content: center;
+              align-items: center;
               h1 {
                     font-size: $text-mobilehead;
                     line-height: 1.2;
@@ -125,4 +129,5 @@ body {
         }
     }
 }
+
 
