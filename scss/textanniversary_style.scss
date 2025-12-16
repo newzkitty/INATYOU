@@ -39,7 +39,10 @@ body {
     height: 100vh; /* Full height to demonstrate vertical centering */
     margin: 0 auto;
     padding: 40px;
-    background-image: radial-gradient(#FFFFFF, #FFB3C3);
+    position: relative;
+    background: #ffffff;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(255, 102, 115, 1) 50%, rgba(255, 255, 255, 1) 100%);
+    //background-image: radial-gradient(#FFFFFF, #FFB3C3);
     .head-container{
     display: flex;
     flex-direction: column;
