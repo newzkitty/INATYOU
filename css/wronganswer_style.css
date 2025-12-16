@@ -77,9 +77,7 @@ body {
   /* Full height to demonstrate vertical centering */
   margin: 0 auto;
   padding: 40px;
-  background: #ffffff;
-  background: -webkit-gradient(linear, left bottom, left top, from(white), color-stop(50%, #ff6673), to(white));
-  background: linear-gradient(0deg, white 0%, #ff6673 50%, white 100%);
+  background-image: radial-gradient(#FFFFFF, #FFB3C3);
 }
 
 #head-section .head-container {
