@@ -102,19 +102,16 @@ body {
 }
 
 #head-section .head-container .text {
-  visibility: hidden;
   position: absolute;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   opacity: 0;
-  -webkit-transition: opacity 1s ease-in-out;
-  transition: opacity 1s ease-in-out;
+  visibility: hidden;
+  -webkit-transition: opacity 1.2s ease-in-out;
+  transition: opacity 1.2s ease-in-out;
   gap: 12px;
-  padding: 20px;
 }
 
 #head-section .head-container .text h1 {
@@ -160,13 +157,10 @@ body {
 
 @media only screen and (max-width: 600px) {
   #head-section {
-    padding: 40px;
+    padding: 20px;
   }
   #head-section .head-container {
     line-break: 20px;
-  }
-  #head-section .head-container .text {
-    padding: 20px;
   }
   #head-section .head-container .text h1 {
     font-size: 40px;
