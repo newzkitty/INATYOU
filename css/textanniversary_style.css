@@ -78,9 +78,9 @@ body {
   margin: 0 auto;
   padding: 40px;
   position: relative;
-  background: #ffffff;
-  background: -webkit-gradient(linear, left bottom, left top, from(white), color-stop(50%, #ff6673), to(white));
-  background: linear-gradient(0deg, white 0%, #ff6673 50%, white 100%);
+  background: #FFB3C3;
+  background: -webkit-gradient(linear, left bottom, left top, from(#ffb3c3), color-stop(20%, #ffdae2), color-stop(50%, white), color-stop(80%, #ffd8e0), to(#ffb3c3));
+  background: linear-gradient(0deg, #ffb3c3 0%, #ffdae2 20%, white 50%, #ffd8e0 80%, #ffb3c3 100%);
 }
 
 #head-section .head-container {
@@ -110,8 +110,11 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-transition: opacity 1s ease-in-out, visibility 1.2s ease-in-out;
-  transition: opacity 1s ease-in-out, visibility 1.2s ease-in-out;
+  opacity: 0;
+  -webkit-transition: opacity 1s ease-in-out,
+ visibility 1.2s ease-in-out;
+  transition: opacity 1s ease-in-out,
+ visibility 1.2s ease-in-out;
   gap: 12px;
   padding: 20px;
 }
