@@ -21,7 +21,7 @@ $weight-description:400;
 $weight-button:600;
 
 
-$font-th:"Sriracha", cursive;
+$font-th:'Sriracha', cursive;
 $font-eng:'Poppins', sans-serif;
 
 html {
@@ -42,8 +42,8 @@ body {
     padding: 40px;
     // background: #ffffff;
     // background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(255, 179, 195, 1) 100%);
-    background: #ffffff;
-    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(255, 102, 115, 1) 50%, rgba(255, 255, 255, 1) 100%);
+    background-image: radial-gradient(#FFFFFF, #FFB3C3);
+
     .head-container{
     display: flex;
     flex-direction: column;
