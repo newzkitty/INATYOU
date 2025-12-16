@@ -55,6 +55,7 @@ body {
           position: absolute;
           justify-content: center;
           align-items: center;
+          opacity: 0;
           transition:
             opacity 1s ease-in-out,
             visibility 1.2s ease-in-out;          
@@ -129,4 +130,5 @@ body {
         }
     }
 }
+
 
