@@ -36,13 +36,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    min-height: 100svh;
+    height: 100vh; /* Full height to demonstrate vertical centering */
     margin: 0 auto;
     padding: 40px;
-    background: #ffffff;
+background: #ffffff;
     background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(255, 179, 195, 1) 100%);
-
     .head-container{
     display: flex;
     flex-direction: column;
@@ -64,6 +62,8 @@ body {
             font-size: $text-head;
             font-weight: $weight-head;
             text-align: center;
+            align-items: center;
+
             line-height: 1;
             color:$primary-color;
             text-shadow: 2px 2px 0px $thrid-color;
@@ -77,6 +77,7 @@ body {
             font-size: $text-subhead;
             font-weight: $weight-head;
             text-align: center;
+            align-items: center;
             line-height: 1;
             color:$primary-color;
             text-shadow: 2px 2px 0px $thrid-color;
@@ -108,15 +109,11 @@ body {
 @media only screen and (max-width: 600px)
 {
     #head-section{
-            padding: 40px;
-            justify-content: center;
-            align-items: center;
+          padding: 40px;
         .head-container{
           line-break: 20px;
             .text{
               padding: 20px;
-              justify-content: center;
-              align-items: center;
               h1 {
                     font-size: $text-mobilehead;
                     line-height: 1.2;
@@ -130,5 +127,4 @@ body {
         }
     }
 }
-
 
