@@ -56,9 +56,7 @@ body {
           justify-content: center;
           align-items: center;
           opacity: 0;
-          transition:
-            opacity 1s ease-in-out,
-            visibility 1.2s ease-in-out;          
+          transition: opacity 1s ease-in-out;     
           gap: 12px;
           padding: 20px;
           h1 {
@@ -66,10 +64,10 @@ body {
             font-weight: $weight-head;
             text-align: center;
             align-items: center;
-
             line-height: 1;
             color:$primary-color;
             text-shadow: 2px 2px 0px $thrid-color;
+            margin-bottom: 20px;
             span {
             color:$thrid-color;
             text-shadow: 2px 2px 0px $primary-color;
@@ -83,6 +81,7 @@ body {
             align-items: center;
             line-height: 1;
             color:$primary-color;
+            margin-bottom: 20px;
             text-shadow: 2px 2px 0px $thrid-color;
           span {
             color:$thrid-color;
