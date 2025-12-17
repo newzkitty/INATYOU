@@ -86,7 +86,7 @@ body {
             font-weight: $weight-button;
             color: $primary-color;
             width: 220px;
-            height: 220px;
+            height: 250px;
             padding: 20px 40px;
             border-radius: 20px;
             border: 2px solid $stroke-color;
@@ -103,6 +103,9 @@ body {
                 color: $thrid-color;
             
             }
+            img{
+                width: 100%;
+            }
             
         }
         button:hover{
@@ -110,10 +113,9 @@ body {
             background-color: $thrid-color;
             border: 2px solid $stroke-color;
             box-shadow:0 4px 8px 0 rgba(0,0,0,0.4);
-         i{
-
-                 color: $secondary-color;
-            }
+         img{
+            width: 110%;
+         }
         }
         p{
             font-size: $text-button;
@@ -137,9 +139,7 @@ body {
         padding: 20px;
         .quiz-container{
             gap: 10px;
-                img{
-                    width: 220px;
-                 }   
+            
                 h1 {
                     font-size: $text-mobilesubhead;
                 }
@@ -154,12 +154,17 @@ body {
              gap: 10px;
                button {
                   width: 120px;
-                  height: 120px;
+                  height: 150px;
                     font-size: $text-mobilebutton;
                     padding: 10px;
-                i{
-                    
+                    img{
+                    width: 80%;
+                      } 
                 }
+                button:hover{
+                     img{
+                    width: 90%;
+                      } 
                 }
 
         }
