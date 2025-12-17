@@ -1,0 +1,239 @@
+@charset "UTF-8";
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;0,600;0,700;0,800;0,900;1,600;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Pacifico&family=Parisienne&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Pacifico&family=Parisienne&family=Sriracha&display=swap");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+#head-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  margin: 0 auto;
+  padding: 40px;
+  background: #ffffff;
+  background: -webkit-gradient(linear, left bottom, left top, from(white), color-stop(50%, #ff6673), to(white));
+  background: linear-gradient(0deg, white 0%, #ff6673 50%, white 100%);
+}
+
+#head-section h2 {
+  font-size: 90px;
+  font-weight: 800;
+  font-family: "Sriracha", cursive;
+  text-align: center;
+  line-height: 1.2;
+  color: #FF6673;
+  text-shadow: 2px 2px 0px #ffd54d;
+}
+
+#head-section h2 span {
+  color: #ffd54d;
+  text-shadow: 2px 2px 0px #FF6673;
+}
+
+#head-section .card-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-items: center;
+}
+
+#head-section .card-container .card {
+  width: 100%;
+  max-width: 250px;
+  min-width: 200px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border: 2px solid #FF6673;
+  border-radius: 20px;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+  gap: 20px;
+  /* 🔑 กรอบรูป */
+}
+
+#head-section .card-container .card .card-image {
+  width: 100%;
+  height: 220px;
+  overflow: hidden;
+}
+
+#head-section .card-container .card .card-image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  display: block;
+}
+
+#head-section .card-container .card .container {
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 10px;
+}
+
+#head-section .card-container .card .container h3 {
+  font-size: 32px;
+  font-weight: 800;
+  color: #FF6673;
+  text-align: start;
+}
+
+#head-section .card-container .card .container p {
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 1.2;
+  text-align: start;
+  color: #FF6673;
+}
+
+#head-section button {
+  margin-right: 0;
+  font-size: 22px;
+  font-weight: 600;
+  color: #ffe5ec;
+  padding: 20px;
+  border-radius: 60px;
+  border: 2px solid #89573E;
+  background-color: #FF6673;
+  cursor: pointer;
+}
+
+#head-section button:hover {
+  color: #FF6673;
+  background-color: #ffd54d;
+  border: 2px solid #89573E;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+}
+
+@media only screen and (max-width: 600px) {
+  #head-section {
+    width: 100vw;
+    padding: 20px;
+  }
+  #head-section h1 {
+    font-size: 25px;
+  }
+  #head-section h2 {
+    font-size: 40px;
+  }
+  #head-section .card-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  #head-section .card-container .card {
+    width: 100%;
+    max-width: 160px;
+    min-width: 120px;
+    padding: 12px;
+  }
+  #head-section .card-container .card .card-image {
+    height: 140px;
+  }
+  #head-section .card-container .card .container {
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 5px;
+  }
+  #head-section .card-container .card .container h3 {
+    font-size: 18px;
+  }
+  #head-section .card-container .card .container p {
+    font-size: 12px;
+  }
+  #head-section button {
+    font-size: 14px;
+    padding: 10px;
+  }
+}
+/*# sourceMappingURL=moment_style.css.map */
