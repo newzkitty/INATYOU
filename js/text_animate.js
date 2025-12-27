@@ -8,7 +8,7 @@ window.addEventListener('load', () => {
 
     let currentIndex = 0;
     const fadeDuration = 1200;
-    const holdDuration = 3000;
+    const holdDuration = 5000;
 
     texts.forEach((text, i) => {
         text.classList.remove('active');
